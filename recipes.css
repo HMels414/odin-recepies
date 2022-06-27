@@ -1,38 +1,48 @@
 img {
-    max-width: 500px;
-    max-height: auto;
-    border-radius: 8px;
+    height: 300px;
+    width: 500px;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 h1 {
     font-size: 64px;
     padding: 2%;
     border: 5px;
 }
+
 .grid-child {
     padding-left: 5%;
     display: flex;
     grid-template-columns: 50%;
-    border-color: black, ;
+
 }
 .parts {
    margin-left: 10%;
    margin-top: 2%;
-  border: black solid;
   border-radius: 2%;
 }
-.lasagna {
-    border: black solid;
-}
+
 .title { background-color: burlywood;
-color:bisque;}
+color:bisque;
+}
+
 .home {
     color: red;
     text-decoration: none;
     font-weight: 800;
 }
-.div {
+
+.flex-container {
+    display: flex;
+    width: 50%;
+}
+.leche {
+    margin-top: 150px;
+}
+
+.sirloin {
 
 }
